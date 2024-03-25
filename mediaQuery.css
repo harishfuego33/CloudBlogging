@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-section-1 {
+        min-width: 95%;
+    }
+
+    .blog-box {
+        min-width: 100%;
+    }
+
+    .header-comp {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:663.95px) {
+    .blog-box {
+        flex-direction: column-reverse;
+        min-height: 400px;
+        width: 20px;
+    }
+
+    .blog-topic-box {
+        gap: 1rem;
+    }
+
+    .img-box {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (min-width:1000px) {
+    .RightToLeftHamburger {
+        display: none;
+    }
+}

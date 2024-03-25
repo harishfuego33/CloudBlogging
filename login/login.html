@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
+    <header class="header-1">
+      <div class="header-1-blog">
+        <a href="#">BLOG SITE</a>
+      </div>
+      <div class="header-navigator">
+        <div class="header-comp">
+          <a href="#"><img src="../assets/home.svg" type="svg" alt="" />HOME</a>
+        </div>
+        <div class="header-comp">
+          <a href="#"
+            ><img src="../assets/login.svg" type="svg" alt="" />LOGIN</a
+          >
+        </div>
+        <div class="header-comp">
+          <a href="#"
+            ><img src="../assets/register.svg" type="svg" alt="" />REGISTER</a
+          >
+        </div>
+      </div>
+    </header>
+    <button class="hamburger-menu" onclick="hamburger()">
+      <img src="../assets/hamburger menu.svg" alt="" />
+    </button>
+    <aside class="RightToLeftHamburger hidden">
+      <div class="HamburgerOption">
+        <div class="header-comp2">
+          <img src="../assets/home.svg" type="svg" alt="" /><a href="#">HOME</a>
+        </div>
+        <div class="header-comp2">
+          <img src="../assets/login.svg" type="svg" alt="" /><a href="#"
+            >LOGIN</a
+          >
+        </div>
+        <div class="header-comp2">
+          <img src="../assets/register.svg" type="svg" alt="" /><a href="#"
+            >REGISTER</a
+          >
+        </div>
+      </div>
+    </aside>
+    <form action="#" method="post">
+      <div class="form-img"><img src="../assets/img/30495.jpg" alt="" /></div>
+      <div class="login-components">
+        <h2>login</h2>
+        <div class="Email-box">
+          <img
+            src="../fontawesome-free-6.5.1-web/svgs/regular/envelope.svg"
+            alt=""
+            srcset=""
+          /><input type="text" placeholder="Email id" />
+        </div>
+        <div class="password-box">
+          <img
+            src="../fontawesome-free-6.5.1-web/svgs/solid/lock.svg"
+            alt=""
+            srcset=""
+          />
+          <input type="password" placeholder="password" />
+        </div>
+        <button>login</button>
+      </div>
+    </form>
+  </body>
+  <script src="login.js"></script>
+</html>
